@@ -1,32 +1,38 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+/* -----------------HEADER---------------- */
+.header-logo :hover,
+.header-logo :focus {
+  color: #2196f3;
 }
 .header-logo-web {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 .header-logo-studio {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
 }
 .header-logo {
   text-decoration: none;
 }
+.header-nav-item :hover,
+.header-nav-item :focus {
+  color: #2196f3;
+}
 .header-link-studio {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -37,7 +43,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -45,18 +51,24 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
 .header-contact-list {
   list-style: none;
 }
+.header-contact-item :hover {
+  color: #2196f3;
+}
+.header-contact-item :focus {
+  color: #2196f3;
+}
 .header-mail {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -64,10 +76,11 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
+/* -----------------------------HERO------------------------ */
 .hero-studio {
   background-color: #2f303a;
 }
@@ -76,201 +89,73 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #2196f3;
+}
 .hero-btn {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
+/* ------------------------------ABOUT------------------------------- */
 .about-list {
   list-style: none;
 }
 .about-item-title {
-  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
 .about-item-text {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .about-img-title {
+  font-size: 36px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .about-img-list {
   list-style: none;
 }
-.about-img-photo-1 {
-  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
-  mix-blend-mode: normal;
-}
-.about-img-photo-2 {
-  background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
-}
-.about-img-photo-3 {
-  background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
-}
+/* ---------------------------------------TEAM--------------------------- */
 .team-list {
   list-style: none;
 }
 .team-title {
+  font-size: 36px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.team-list-img-1 {
-  position: absolute;
-  width: 270px;
-  height: 260px;
-  left: 215px;
-  top: 1635px;
-  background: url(4853.jpg);
-  border-radius: 0px;
-}
-.team-list-name-1 {
-  position: absolute;
-  width: 151px;
-  height: 19px;
-  left: 275px;
-  top: 1925px;
+.team-list-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.team-list-position-1 {
-  position: absolute;
-  width: 130px;
-  height: 19px;
-  left: 285px;
-  top: 1954px;
-  font-weight: 400;
+.team-list-position {
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.team-list-img-2 {
-  position: absolute;
-  width: 270px;
-  height: 260px;
-  left: 515px;
-  top: 1635px;
-  background: url(5844.jpg);
-  border-radius: 0px;
-}
-.team-list-name-2 {
-  position: absolute;
-  width: 109px;
-  height: 19px;
-  left: 596px;
-  top: 1925px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.team-list-position-2 {
-  position: absolute;
-  width: 147px;
-  height: 19px;
-  left: 577px;
-  top: 1954px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.team-list-img-3 {
-  position: absolute;
-  width: 270px;
-  height: 260px;
-  left: 815px;
-  top: 1635px;
-  background: url(16166.jpg);
-  border-radius: 0px;
-}
-.team-list-name-3 {
-  position: absolute;
-  width: 137px;
-  height: 19px;
-  left: 882px;
-  top: 1925px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.team-list-position-3 {
-  position: absolute;
-  width: 76px;
-  height: 19px;
-  left: 912px;
-  top: 1954px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.team-list-img-4 {
-  position: absolute;
-  width: 270px;
-  height: 260px;
-  left: 1115px;
-  top: 1635px;
-  background: url(2968.jpg);
-  border-radius: 0px;
-}
-.team-list-name-4 {
-  position: absolute;
-  width: 134px;
-  height: 19px;
-  left: 1183px;
-  top: 1925px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.team-list-position-4 {
-  position: absolute;
-  width: 87px;
-  height: 19px;
-  left: 1207px;
-  top: 1954px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
+
+/* -------------------------------FOOTER--------------------------- */
 .footer {
-  position: absolute;
   width: 1600px;
   height: 252px;
   left: 0px;
@@ -283,46 +168,90 @@ body {
 .footer-logo {
   text-decoration: none;
 }
+.footer-logo :hover,
+.footer-logo :focus {
+  color: #2196f3;
+}
 .footer-logo-web {
   text-decoration: none;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 .footer-logo-studio {
   text-decoration: none;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footer-adress {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.footer-contact-list :hover {
+  color: #2196f3;
+}
+.footer-contact-list :focus {
+  color: #2196f3;
+}
 .footer-mail {
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+/* ---------------------------------PORTFOLIO----------------------------------- */
+.list {
+  list-style: none;
+}
+.buttons {
+  cursor: pointer;
+}
+.buttons-item-active {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.buttons-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.buttons-item-active :hover,
+.buttons-item-active :focus {
+  color: #2196f3;
+}
+.buttons-item :hover,
+.buttons-item :focus {
+  color: #2196f3;
+}
+.projects-item-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.projects-item-after-title {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
