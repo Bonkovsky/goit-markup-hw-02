@@ -85,8 +85,12 @@ body {
   background-color: #2f303a;
 }
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: #ffffff;
 }
 
@@ -96,6 +100,8 @@ body {
 }
 .hero-btn {
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
@@ -189,6 +195,7 @@ body {
   color: #ffffff;
 }
 .footer-adress {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -202,6 +209,7 @@ body {
 }
 .footer-mail {
   text-decoration: none;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -209,6 +217,7 @@ body {
 }
 .footer-tel {
   text-decoration: none;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -218,29 +227,29 @@ body {
 .list {
   list-style: none;
 }
-.buttons {
+.buttons-list {
   cursor: pointer;
 }
 .buttons-item-active {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.63;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .buttons-item {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6px;
+  line-height: 1.63;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.buttons-item-active :hover,
-.buttons-item-active :focus {
-  color: #2196f3;
-}
-.buttons-item :hover,
-.buttons-item :focus {
+.buttons-list :hover,
+.buttons-list :focus {
   color: #2196f3;
 }
 .projects-item-title {
